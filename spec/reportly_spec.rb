@@ -1,6 +1,6 @@
 require 'spec_helper'
 require 'active_record'
-require "rails/console/helpers"
+require 'rails/console/helpers'
 
 NAMESPACE = Reportly::ConsoleMethods
     

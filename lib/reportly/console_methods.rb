@@ -6,13 +6,14 @@ module Reportly
     class ReportlyNotValid < StandardError; end
     
     def self.report(model, *fields)
+
       raise ReportlyNotValid, "Reportly accepts only ActiveRecord Objects" unless is_valid_klass?(model)
     
       # call :all for ActiveRecord::Base model
-        model = model.send(:all) unless model.is_a?(Array)
+      model = model.send(:all) unless model.is_a?(Array)
   
-        # create a new array if its a single record
-        model = [model] unless model.respond_to? :each
+      # create a new array if its a single record
+      model = [model] unless model.respond_to? :each
     
       Reportly::Engine.report(model, *fields)
     end
