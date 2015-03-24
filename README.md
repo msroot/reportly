@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/msroot/reportly.svg?branch=master)](https://travis-ci.org/msroot/reportly) 
 [![Code Climate](https://codeclimate.com/github/msroot/reportly/badges/gpa.svg)](https://codeclimate.com/github/msroot/reportly)
 [![Inline docs](http://inch-ci.org/github/msroot/reportly.svg?branch=master)](http://inch-ci.org/github/msroot/reportly)
-
+[![Coverage Status](https://coveralls.io/repos/msroot/reportly/badge.svg)](https://coveralls.io/r/msroot/reportly)
 # Reportly
 
 Reports for Active Record results! No configurations needed
