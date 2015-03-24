@@ -1,6 +1,7 @@
-[![Build Status](https://travis-ci.org/msroot/reportly.svg?branch=master)](https://travis-ci.org/msroot/reportly) 
 [![Gem Version](https://badge.fury.io/rb/reportly.png)](http://badge.fury.io/rb/reportly)
+[![Build Status](https://travis-ci.org/msroot/reportly.svg?branch=master)](https://travis-ci.org/msroot/reportly) 
 [![Code Climate](https://codeclimate.com/github/msroot/reportly/badges/gpa.svg)](https://codeclimate.com/github/msroot/reportly)
+[![Inline docs](http://inch-ci.org/github/msroot/reportly.svg?branch=master)](http://inch-ci.org/github/msroot/reportly)
 
 # Reportly
 
