@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/msroot/reportly?branch=master)](https://travis-ci.org/msroot/reportly) 
+[![Build Status](https://travis-ci.org/msroot/reportly.svg?branch=master)](https://travis-ci.org/msroot/reportly) 
 
 [![Gem Version](https://badge.fury.io/rb/reportly.png)](http://badge.fury.io/rb/reportly)
 
