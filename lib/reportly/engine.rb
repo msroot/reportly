@@ -12,20 +12,23 @@ module Reportly
         end
       end
 
+      report = []
+      
       border = '+-' + fields.map {|f| '-' * max_len[f] }.join('-+-') + '-+'
       title_row = '| ' + fields.map {|f| sprintf("%-#{max_len[f]}s", f.to_s) }.join(' | ') + ' |'
 
-      puts border
-      puts title_row
-      puts border
+      report << border
+      report <<  title_row
+      report << border
 
       items.each do |item|
         row = '| ' + fields.map {|f| sprintf("%-#{max_len[f]}s", item.read_attribute(f)) }.join(' | ') + ' |'
-        puts row
+        report <<  row
       end
 
-      puts border
-      puts "#{items.length} rows in set\n"
+      report << border
+      report <<  "#{items.length} rows in set"
+      report
     end
   end
 end
